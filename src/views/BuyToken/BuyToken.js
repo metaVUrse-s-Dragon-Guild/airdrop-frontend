@@ -179,7 +179,7 @@ const BuyToken = ({
                   
                   style={{ width: "100%" }}
                   type="text"
-                  
+                  placeholder="Addresses array here"
                   onChange={onAddressChange}
                   value={addresses}
                 />
@@ -188,7 +188,7 @@ const BuyToken = ({
                   
                   style={{ width: "100%" }}
                   type="text"
-                  
+                  placeholder="Token ids array here"
                   onChange={onTokenIdChange}
                   value={tokenIds}
                 />

@@ -20,5 +20,5 @@ export const mainnetInfuraNode = 'https://mainnet.infura.io/v3/4eadc04c11494a3e8
 
 export const airdropAbi = Airdrop.abi;
 
-export const nftContractAddress = '0x5e3C308B4584233dDaCdAf0A620e8f9303bf44CA';
-export const airdropContractAddress = '0x46EC58b4C030320e96e59075482d7524121c148c';
+export const nftContractAddress = '0xc8C04415B67250AD675c4874F47D7F7f85A660aa';
+export const airdropContractAddress = '0x5ad4a13177728237Ad6cD96E92Bce82EEF726577';
