@@ -1,0 +1,144 @@
+.infobox {
+  width: 48%;
+  height: 594px;
+  padding: 33px 30px 15px;
+  border-radius: 10px;
+  border: solid 1px rgba(255, 255, 255, 0.16);
+  background-color: #342d47;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  @media (max-width: 1070px) {
+    width: 100%;
+    height: 624px;
+  }
+}
+
+.infobox-title {
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
+}
+
+.rectangle {
+  width: 28px;
+  height: 6px;
+  margin: 0 13px;
+  border-radius: 5px;
+  background-color: #8cf29f;
+}
+
+.oval {
+  width: 6px;
+  height: 6px;
+  margin: 0 13px 0 0;
+  opacity: 0.6;
+  background-color: #fff;
+}
+
+.slider-image {
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5rem;
+}
+
+.box-indicator {
+  margin-top: 1rem;
+}
+
+.diamond-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.allocation-target {
+  opacity: 0.6;
+  font-family: poppins-regular;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.percentage {
+  font-family: poppins-regular;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.slider1-col {
+  width: 50%;
+  padding-left: 3rem;
+  @media (max-width: 600px) {
+    padding-left: 1rem;
+  }
+}
+
+.slider1-img {
+  padding-left: 0rem;
+  @media (max-width: 600px) {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+.allocation-row {
+  display: flex;
+  align-items: center;
+}
+
+.allocation-image-row {
+  border-bottom: solid 1px #1c1532;
+  padding-bottom: 2rem;
+  width: 100%;
+  justify-content: center;
+  @media (max-width: 600px) {
+    
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.total-supply-row {
+  padding-bottom: 2rem;
+}
+
+.total-supply {
+  font-family: poppins-bold;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  padding-right: 1rem;
+}
+
+.token-text {
+  opacity: 0.6;
+  font-family: poppins-regular;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.slider-graphic {
+  @media (max-width: 1070px) {
+    max-height: 360px;
+  }
+}

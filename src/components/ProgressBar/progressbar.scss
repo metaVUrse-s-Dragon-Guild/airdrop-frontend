@@ -1,0 +1,205 @@
+// .raised-slider, .sold-slider {
+//   -webkit-appearance: none;
+//   width: 100%;
+//   border-radius: 5px;
+//   background-color: #1c1532;
+//   outline: none;
+//   border-radius: 7px;
+//   border: solid 1px rgba(255, 255, 255, 0.42);
+//   height: 15px;
+//   position: relative;
+//   &:hover + .bubble {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+// .fill {
+//   &:hover + .bubble {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+// .raised-slider::-webkit-slider-thumb {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   width: 44px;
+//   height: 44px;
+//   border: 0;
+//   // margin-left: 1.5rem; // only when over 60%!
+//   padding: 0;
+//   background-image: url('../../assets/progress/raised.svg');
+//   background-size: contain;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   cursor: pointer;
+//   z-index: 10;
+//   position: relative;
+// }
+
+// .raised-slider::-moz-range-thumb {
+//   width: 44px;
+//   height: 44px;
+//   border: 0;
+//   margin: 0;
+//   padding: 0;
+//   background-image: url('../../assets/progress/raised.svg');
+//   background-size: contain;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   cursor: pointer;
+//   z-index: 10;
+//   position: relative;
+// }
+
+// .sold-slider::-webkit-slider-thumb {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   width: 44px;
+//   height: 44px;
+//   border: 0;
+//   // margin-left: 1.5rem; // only when over 60%!
+//   padding: 0;
+//   background-image: url('../../assets/progress/sold.svg');
+//   background-size: contain;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   cursor: pointer;
+//   z-index: 10;
+//   position: relative;
+// }
+
+// .sold-slider::-moz-range-thumb {
+//   width: 44px;
+//   height: 44px;
+//   border: 0;
+//   margin: 0;
+//   padding: 0;
+//   background-image: url('../../assets/progress/sold.svg');
+//   background-size: contain;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   cursor: pointer;
+//   z-index: 10;
+//   position: relative;
+// }
+
+// .bubble {
+//   display: none;
+//   font-family: sans-serif;
+//   width: 250px;
+//   border-radius: 6px;
+//   background-color: #fff;
+//   padding: 12px;
+//   text-align: center;
+//   position: absolute;
+//   bottom: 25px;
+//   left: 0;
+//   color: black;
+//   font-size: 14px;
+//   letter-spacing: 0;
+//   line-height: 21px;
+//   text-align: center;
+//   z-index: 10;
+// }
+
+// .bubble:before {
+//   content: '';
+//   width: 0px;
+//   height: 0px;
+//   position: absolute;
+//   border-left: 12px solid #fff;
+//   border-right: 6px solid transparent;
+//   border-top: 6px solid #fff;
+//   border-bottom: 10px solid transparent;
+//   left: 32px;
+//   bottom: -15px;
+// }
+
+// NEW CODE
+.progress {
+  position: relative;
+  margin: 15px 0;
+  width: 100%;
+  background-color: #1c1532;
+  // outline: none;
+  border-radius: 7px;
+  border: solid 1px rgba(255, 255, 255, 0.42);
+  height: 20px;
+
+  &:hover + .bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.progress-done {
+  width: 0;
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 1;
+  transition: 1s ease 0.3s;
+  
+  &:hover + .bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.progress-icon {
+  cursor: pointer;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -113%;
+  transition: 1s ease 0.3s;
+
+  &:hover + .bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bubble {
+  display: none;
+  font-family: sans-serif;
+  width: 250px;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+  z-index: 10;
+}
+
+.bubble:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 12px solid #fff;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  border-bottom: 10px solid transparent;
+  left: 32px;
+  bottom: -15px;
+}

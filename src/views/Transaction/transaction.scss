@@ -1,0 +1,55 @@
+.transaction-page {
+  background-color: #1c1532;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+
+.transaction {
+  padding: 0rem 3rem;
+
+  @media (max-width: 1070px) {
+    padding: 7rem 3rem 0 3rem;
+  }
+
+  @media (max-width: 420px) {
+    padding: 7rem 0rem 0 0rem;
+  }
+}
+
+.table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.th-head {
+  font-family: poppins-regular;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.tr-header {
+  border-radius: 6px;
+  background-color: #342d47;
+}
+
+.tr {
+  text-align: center;
+  font-family: poppins-regular;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  height: 70px;
+  box-shadow: 0 1px 0 0 #544e64;
+  background-color: rgba(52, 45, 71, 0.35);
+}
+

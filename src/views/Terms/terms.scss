@@ -1,0 +1,68 @@
+.terms-page {
+  background-color: #1c1532;
+  padding-bottom: 3rem;
+}
+
+.terms {
+  padding: 7rem 6rem 0 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @media (max-width: 1070px) {
+    padding: 7rem 1rem 0 1rem;
+  }
+}
+
+.terms-box {
+  width: 70%;
+  padding: 3rem;
+  text-align: left;
+
+  @media (max-width: 1070px) {
+    width: 95%;
+    padding: 1rem;
+  }
+}
+
+.please-read-box {
+  padding: 17px 23px 23px 20px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.16);
+  margin-bottom: 1.5rem;
+}
+
+.subgraph-row {
+  padding: 2rem 0;
+}
+
+.terms-subgraph {
+  font-family: poppins-bold;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  opacity: 1;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.terms-title {
+  font-family: poppins-bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.exhibit-title {
+  padding-top: 1.5rem;
+}

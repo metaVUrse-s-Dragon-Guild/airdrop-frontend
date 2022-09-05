@@ -1,0 +1,11 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+// https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
+@font-face {
+    font-family: 'poppins-bold';
+    src: local('MyFont'), url(../../fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: local('MyFont'), url(../../fonts/Poppins-Regular.ttf) format('truetype');
+}

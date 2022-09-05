@@ -1,0 +1,24 @@
+.dashboard-page {
+  background-color: #1c1532;
+  padding-bottom: 3rem;
+}
+
+.dashboard {
+  padding: 7rem 3rem 0 3rem;
+}
+
+.dashboard-bottom {
+  justify-content: space-between;
+  @media (max-width: 1070px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.right-column {
+  width: 50%;
+  @media (max-width: 1070px) {
+    width: 100%;
+    align-items: center;
+  }
+}

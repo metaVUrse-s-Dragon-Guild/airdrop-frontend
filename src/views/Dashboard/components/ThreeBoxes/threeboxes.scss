@@ -1,0 +1,48 @@
+.three-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0 0;
+
+  @media (max-width: 1070px) {
+      flex-direction: column;
+  }
+}
+
+.background-image-box {
+  background-image: url("../../../../assets/box/bg.svg");
+  background-size: cover;
+  object-fit: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.dashboard-top-box {
+  width: 32%;
+  height: 242px;
+  padding: 33px 31px 30px 30px;
+  border-radius: 10px;
+  border: solid 1px rgba(255, 255, 255, 0.16);
+  background-color: #342d47;
+  @media (max-width: 1070px) {
+    width: 100%;
+    margin: 1rem 0;
+}
+}
+
+.first-half {
+  border-bottom: solid 1px rgba(28, 21, 50, 0.15);
+  width: 100%;
+}
+
+.second-half {
+  margin-top: 1rem;
+  // border-bottom: solid 1px rgba(28, 21, 50, 0.15);
+}
+
+.contribution-stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

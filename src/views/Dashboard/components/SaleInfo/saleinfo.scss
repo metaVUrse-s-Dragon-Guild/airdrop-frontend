@@ -1,0 +1,45 @@
+.saleinfo {
+  width: 100%;
+  height: 233px;
+  padding: 28px 51px 28px 30px;
+  border-radius: 10px;
+  border: solid 1px rgba(255, 255, 255, 0.16);
+  background-color: #342d47;
+  @media (max-width: 1070px) {
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    height: 250px;
+  }
+
+  @media (max-width: 500px) {
+    height: 290px;
+    padding: 40px 41px 20px 20px;
+  }
+
+  @media (max-width: 400px) {
+    height: 330px;
+  }
+}
+
+.token-sale-title {
+   @media (max-width: 500px) {
+    font-size: 20px;
+  }
+}
+
+.left-sale-info {
+  width: 60%;
+  height: 170px;
+}
+
+.right-sale-info {
+  width: 40%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 3rem;
+  @media (max-width: 500px) {
+    padding-left: 1rem;
+  }
+}

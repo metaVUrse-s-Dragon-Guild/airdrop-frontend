@@ -1,0 +1,7 @@
+export const SET_USER = 'SET_USER';
+export const SET_DISCONNECTED_USER = 'SET_DISCONNECTED_USER';
+export const UNSET_USER = 'UNSET_USER';
+export const SET_TRANSACTIONS = 'SET_TRANSACTIONS';
+export const SET_ETH_PRICE = 'SET_ETH_PRICE';
+export const SET_CURRENT_TIME = 'SET_CURRENT_TIME';
+

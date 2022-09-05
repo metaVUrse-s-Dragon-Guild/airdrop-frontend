@@ -1,0 +1,51 @@
+.big-button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  padding: 14px 0 15px;
+  border-radius: 6px;
+  background-color: #8cf29f;
+  font-family: poppins-regular;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1532;
+
+  &:active {
+    transform: translateY(0.1rem);
+  }
+
+  &:hover {
+    background-color: #76c589;
+  }
+}
+
+.small-button {
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  padding: 9px 0 10px;
+  border-radius: 6px;
+  background-color: #8cf29f;
+  font-family: poppins-regular;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1532;
+
+  &:active {
+    transform: translateY(0.1rem);
+  }
+
+  &:hover {
+    background-color: #76c589;
+  }
+}
