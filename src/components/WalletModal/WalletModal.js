@@ -28,11 +28,11 @@ const WalletModal = ({ setWalletModal, setUser, createNotification }) => {
   const [walletProvider, setWalletProvider] = useState("");
 
   useEffect(() => {
-    if (library && account && chainId === 4) {
+    if (library && account && chainId === 1) {
       createNotification("success", "Wallet Connected Successfully", 4000);
       setUser(library, account);
       setWalletModal(false);
-    } else if (chainId && chainId !== 4) {
+    } else if (chainId && chainId !== 1) {
       switchNetwork(connector);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -60,7 +60,7 @@ const WalletModal = ({ setWalletModal, setUser, createNotification }) => {
   const switchNetwork = async (connector) => {
     const provider =
       walletProvider === "metamask" ? window.ethereum : connector.provider;
-    const formattedChainId = hexStripZeros(BigNumber.from(4).toHexString()); // 4 for rinkeby
+    const formattedChainId = hexStripZeros(BigNumber.from(1).toHexString()); // 4 for rinkeby
     try {
       await provider.request({
         method: "wallet_switchEthereumChain",
@@ -78,10 +78,10 @@ const WalletModal = ({ setWalletModal, setUser, createNotification }) => {
                 rpcUrls: [
                   "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
                 ],
-                chainName: "Rinkeby Testnet",
+                chainName: "ETH Mainnet",
                 nativeCurrency: {
                   name: "Ethereum",
-                  decimals: 18,
+                  decimals: 1,
                   symbol: "ETH",
                 },
                 blockExplorerUrls: ["https://rinkeby.etherscan.io/"],
